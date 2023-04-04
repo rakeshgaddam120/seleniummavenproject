@@ -2,48 +2,60 @@
 <testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-04-01T00:00:13 IST" name="Default suite" finished-at="2023-04-01T00:00:13 IST" duration-ms="93">
+  <suite started-at="2023-04-05T00:11:51 IST" name="Default suite" finished-at="2023-04-05T00:13:08 IST" duration-ms="76674">
     <groups>
     </groups>
-    <test started-at="2023-04-01T00:00:13 IST" name="Default test" finished-at="2023-04-01T00:00:13 IST" duration-ms="93">
-      <class name="day06.program06">
-        <test-method is-config="true" signature="testBefore()[pri:0, instance:day06.program06@4738a206]" started-at="2023-04-01T00:00:13 IST" name="testBefore" finished-at="2023-04-01T00:00:13 IST" duration-ms="8" status="PASS">
+    <test started-at="2023-04-05T00:11:51 IST" name="Default test" finished-at="2023-04-05T00:13:08 IST" duration-ms="76674">
+      <class name="day07.program03">
+        <test-method signature="testCase(java.lang.String,java.lang.String)[pri:0, instance:day07.program03@4fb3ee4e]" started-at="2023-04-05T00:11:51 IST" name="testCase" data-provider="demoTest" finished-at="2023-04-05T00:12:34 IST" duration-ms="42579" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[user1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[pwd1]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testBefore -->
-        <test-method signature="testCases01()[pri:0, instance:day06.program06@4738a206]" started-at="2023-04-01T00:00:13 IST" name="testCases01" finished-at="2023-04-01T00:00:13 IST" duration-ms="12" status="PASS">
+        </test-method> <!-- testCase -->
+        <test-method signature="testCase(java.lang.String,java.lang.String)[pri:0, instance:day07.program03@4fb3ee4e]" started-at="2023-04-05T00:12:34 IST" name="testCase" data-provider="demoTest" finished-at="2023-04-05T00:12:53 IST" duration-ms="19164" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[user2]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[pwd2]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testCases01 -->
-        <test-method is-config="true" signature="testAfter()[pri:0, instance:day06.program06@4738a206]" started-at="2023-04-01T00:00:13 IST" name="testAfter" finished-at="2023-04-01T00:00:13 IST" duration-ms="1" status="PASS">
+        </test-method> <!-- testCase -->
+        <test-method signature="testCase(java.lang.String,java.lang.String)[pri:0, instance:day07.program03@4fb3ee4e]" started-at="2023-04-05T00:12:53 IST" name="testCase" data-provider="demoTest" finished-at="2023-04-05T00:13:08 IST" duration-ms="14842" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[user3]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[pwd3]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testAfter -->
-        <test-method signature="testCases02()[pri:0, instance:day06.program06@4738a206]" started-at="2023-04-01T00:00:13 IST" name="testCases02" finished-at="2023-04-01T00:00:13 IST" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testCases02 -->
-        <test-method is-config="true" signature="testBefore()[pri:0, instance:day06.program06@4738a206]" started-at="2023-04-01T00:00:13 IST" name="testBefore" finished-at="2023-04-01T00:00:13 IST" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testBefore -->
-        <test-method is-config="true" signature="testAfter()[pri:0, instance:day06.program06@4738a206]" started-at="2023-04-01T00:00:13 IST" name="testAfter" finished-at="2023-04-01T00:00:13 IST" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testAfter -->
-        <test-method is-config="true" signature="testBefore()[pri:0, instance:day06.program06@4738a206]" started-at="2023-04-01T00:00:13 IST" name="testBefore" finished-at="2023-04-01T00:00:13 IST" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testBefore -->
-        <test-method signature="testCases03()[pri:0, instance:day06.program06@4738a206]" started-at="2023-04-01T00:00:13 IST" name="testCases03" finished-at="2023-04-01T00:00:13 IST" duration-ms="3" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testCases03 -->
-        <test-method is-config="true" signature="testAfter()[pri:0, instance:day06.program06@4738a206]" started-at="2023-04-01T00:00:13 IST" name="testAfter" finished-at="2023-04-01T00:00:13 IST" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testAfter -->
-      </class> <!-- day06.program06 -->
+        </test-method> <!-- testCase -->
+      </class> <!-- day07.program03 -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
